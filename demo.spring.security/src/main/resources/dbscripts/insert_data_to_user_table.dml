@@ -1,0 +1,12 @@
+INSERT INTO `springsecurity`.`user`
+(`id`,
+`user_name`,
+`password`,
+`active`,
+`roles`)
+VALUES
+(1,
+'user',
+'password',
+true,
+'ROLE_USER');
